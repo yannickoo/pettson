@@ -1,0 +1,22 @@
+uuid: 70d91da2-4849-4bf6-829c-6795be767e98
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - findus
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: findus_breadcrumbs
+theme: findus
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

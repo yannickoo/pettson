@@ -1,0 +1,20 @@
+uuid: 3aaf814c-7ce4-4506-aae0-c4c7f314571e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - findus
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: findus_page_title
+theme: findus
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

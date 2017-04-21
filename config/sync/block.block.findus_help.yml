@@ -1,0 +1,22 @@
+uuid: 7b72367e-a9df-41e6-866e-e206595f05d9
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - findus
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: findus_help
+theme: findus
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

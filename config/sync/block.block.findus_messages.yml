@@ -1,0 +1,22 @@
+uuid: 23f0f95f-7ed8-4557-9ff3-c1092c4ab155
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - findus
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: findus_messages
+theme: findus
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }
