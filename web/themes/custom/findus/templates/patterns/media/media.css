@@ -4,10 +4,7 @@
   border: 2px solid #ccc;
   border-radius: 5px;
   padding: 1em;
-}
-
-.media-box + .media-box {
-  
+  margin-bottom: 1em;
 }
 
 .media-box__heading {
