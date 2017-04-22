@@ -17,4 +17,5 @@ code:
        css:
          component:
            prism.css: {}
-           prism.js: {}
+       js:
+         prism.js: {}

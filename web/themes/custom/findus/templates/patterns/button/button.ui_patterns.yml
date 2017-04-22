@@ -1,0 +1,14 @@
+button:
+  label: Button
+  description: A button link
+  fields:
+    url:
+      type: text
+      label: URL
+      description: URL of the link
+      preview: 'http://example.com'
+    text:
+      type: text
+      label: Text
+      description: Title of the link
+      preview: Click me
