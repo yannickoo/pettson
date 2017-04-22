@@ -1,0 +1,26 @@
+.media-box {
+  display: flex;
+  align-items: center;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 1em;
+}
+
+.media-box + .media-box {
+  
+}
+
+.media-box__heading {
+  margin: 0;
+}
+
+.media-box__image {
+  margin-right: 1em;
+}
+
+.media-box__link a {
+  font-size: 1.3em;
+  background: #0071b3;
+  color: #fff;
+  padding: 5px;
+}

@@ -1,0 +1,18 @@
+<div class="media-box">
+  {% if image is not empty %}
+    <div class="media-box__image">
+      {{ image }}
+    </div>
+  {% endif %}
+  <div class="media-box__container">
+    <h2 class="media-box__heading">{{ title }}</h2>
+
+    <div class="media-box__body">
+      {{ body }}
+    </div>
+
+    <div class="media-box__link">
+      {{ link }}
+    </div>
+  </div>
+</div>

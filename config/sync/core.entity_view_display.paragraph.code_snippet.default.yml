@@ -1,0 +1,38 @@
+uuid: e65d5508-673f-4d69-9760-789f4ecdf017
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.code_snippet.field_code
+    - field.field.paragraph.code_snippet.field_code_language
+    - paragraphs.paragraphs_type.code_snippet
+  module:
+    - field_layout
+    - findus
+    - options
+third_party_settings:
+  field_layout:
+    id: pattern_code
+    settings:
+      pattern:
+        field_templates: only_content
+id: paragraph.code_snippet.default
+targetEntityType: paragraph
+bundle: code_snippet
+mode: default
+content:
+  field_code:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_code_language:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: language
+hidden: {  }

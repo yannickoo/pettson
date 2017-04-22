@@ -1,0 +1,38 @@
+uuid: 873c15e9-239d-4762-b5c2-052608dbea85
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.code_snippet.field_code
+    - field.field.paragraph.code_snippet.field_code_language
+    - paragraphs.paragraphs_type.code_snippet
+  module:
+    - field_layout
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+id: paragraph.code_snippet.default
+targetEntityType: paragraph
+bundle: code_snippet
+mode: default
+content:
+  field_code:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_code_language:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

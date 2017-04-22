@@ -1,0 +1,38 @@
+uuid: fd614788-32ed-4a2e-8b84-afda1c2dab3b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.blockquote.field_quote
+    - field.field.paragraph.blockquote.field_source
+    - paragraphs.paragraphs_type.blockquote
+  module:
+    - field_layout
+    - findus
+third_party_settings:
+  field_layout:
+    id: pattern_blockquote
+    settings:
+      pattern:
+        field_templates: only_content
+id: paragraph.blockquote.default
+targetEntityType: paragraph
+bundle: blockquote
+mode: default
+content:
+  field_quote:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: quote
+  field_source:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: source
+hidden: {  }

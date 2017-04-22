@@ -1,0 +1,17 @@
+blockquote:
+  label: Blockquote
+  description: A blockquote element with an optional source.
+  fields:
+    source:
+      type: text
+      label: Source
+      description: The source of the quote
+      preview: John Doe
+    quote:
+      type: text
+      label: Text
+      description: Quote text
+      preview:
+        type: processed_text
+        text: <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p>
+        format: basic_html

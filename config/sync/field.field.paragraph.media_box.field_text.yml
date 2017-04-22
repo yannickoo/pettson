@@ -1,0 +1,21 @@
+uuid: d5b5a064-23ec-4f75-888a-40a11c1daef6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text
+    - paragraphs.paragraphs_type.media_box
+  module:
+    - text
+id: paragraph.media_box.field_text
+field_name: field_text
+entity_type: paragraph
+bundle: media_box
+label: Text
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

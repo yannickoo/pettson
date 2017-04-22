@@ -1,0 +1,7 @@
+uuid: e7248e1a-52c6-41b4-bcab-49cff6c8912c
+langcode: en
+status: true
+dependencies: {  }
+id: code_snippet
+label: 'Code snippet'
+behavior_plugins: {  }

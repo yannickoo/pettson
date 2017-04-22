@@ -1,0 +1,31 @@
+uuid: bc873935-880e-4155-902d-f1e95a159dd1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraphs
+    - node.type.landing_page
+  module:
+    - entity_reference_revisions
+id: node.landing_page.field_paragraphs
+field_name: field_paragraphs
+entity_type: node
+bundle: landing_page
+label: Paragraphs
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: null
+    target_bundles_drag_drop:
+      blockquote:
+        weight: 3
+        enabled: false
+      code_snippet:
+        weight: 4
+        enabled: false
+field_type: entity_reference_revisions

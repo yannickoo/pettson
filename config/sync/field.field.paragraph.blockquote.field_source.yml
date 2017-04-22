@@ -1,0 +1,19 @@
+uuid: 005aa476-bdcc-4e45-abfc-a64440a2834e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_source
+    - paragraphs.paragraphs_type.blockquote
+id: paragraph.blockquote.field_source
+field_name: field_source
+entity_type: paragraph
+bundle: blockquote
+label: Source
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

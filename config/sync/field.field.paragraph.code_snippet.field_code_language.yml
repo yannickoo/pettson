@@ -1,0 +1,21 @@
+uuid: 4eeec944-159e-486a-9ec7-8802a7fe7e4e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_code_language
+    - paragraphs.paragraphs_type.code_snippet
+  module:
+    - options
+id: paragraph.code_snippet.field_code_language
+field_name: field_code_language
+entity_type: paragraph
+bundle: code_snippet
+label: Language
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

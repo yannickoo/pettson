@@ -1,0 +1,7 @@
+uuid: 324af94b-4fb4-4135-a6a2-ba2870853ecc
+langcode: en
+status: true
+dependencies: {  }
+id: media_box
+label: 'Media box'
+behavior_plugins: {  }

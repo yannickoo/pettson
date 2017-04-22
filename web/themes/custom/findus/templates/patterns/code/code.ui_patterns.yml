@@ -1,0 +1,20 @@
+code:
+  label: Code snippet
+  description: Display some code in a specific language.
+  fields:
+    language:
+      type: string
+      label: Language
+      description: The code language as supported by Prism.
+      preview: php
+    content:
+      type: string
+      label: Content
+      description: Content of the code block.
+      preview: 'print phpinfo();'
+  libraries:
+    - prism:
+       css:
+         component:
+           prism.css: {}
+           prism.js: {}
